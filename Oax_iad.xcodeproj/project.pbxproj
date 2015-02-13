@@ -14,6 +14,7 @@
 		8BD5481B1A8D906A00C483B7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BD5481A1A8D906A00C483B7 /* Images.xcassets */; };
 		8BD5481E1A8D906A00C483B7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8BD5481C1A8D906A00C483B7 /* LaunchScreen.xib */; };
 		8BD5482A1A8D906A00C483B7 /* Oax_iadTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BD548291A8D906A00C483B7 /* Oax_iadTests.m */; };
+		8BD548341A8E60A900C483B7 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BD548331A8E60A900C483B7 /* iAd.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		8BD548231A8D906A00C483B7 /* Oax_iadTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Oax_iadTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BD548281A8D906A00C483B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8BD548291A8D906A00C483B7 /* Oax_iadTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Oax_iadTests.m; sourceTree = "<group>"; };
+		8BD548331A8E60A900C483B7 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8BD548341A8E60A900C483B7 /* iAd.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +66,7 @@
 		8BD548011A8D906900C483B7 = {
 			isa = PBXGroup;
 			children = (
+				8BD548331A8E60A900C483B7 /* iAd.framework */,
 				8BD5480C1A8D906900C483B7 /* Oax_iad */,
 				8BD548261A8D906A00C483B7 /* Oax_iadTests */,
 				8BD5480B1A8D906900C483B7 /* Products */,
